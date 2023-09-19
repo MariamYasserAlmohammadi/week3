@@ -54,7 +54,7 @@ class _ChapterDetailsScreenState extends State<ChapterDetailsScreen> {
 
   void loadFile(int index) async {
     String fileContent =
-        await rootBundle.loadString('assets/files/${index + 1}.txt');
+        await rootBundle.loadString('assets/files/${index+1}.txt');
     verses = fileContent.split("\n");
     print(fileContent);
     setState(() {});

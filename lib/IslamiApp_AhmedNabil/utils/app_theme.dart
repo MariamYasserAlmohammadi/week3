@@ -6,4 +6,8 @@ abstract class AppTheme{
   TextStyle(fontSize: 30,fontWeight: FontWeight.bold,
   color:AppColors.accent );
 
+  static const quranTabTitleTextStyle =
+  TextStyle(fontSize: 25,fontWeight: FontWeight.w500,
+      color:AppColors.accent );
+
 }

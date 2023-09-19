@@ -9,5 +9,5 @@ abstract class AppAssets{
   static const  quranTabLogo = "${baseImagesPath}quran_image.png";
   static const  radioTabLogo = "${baseImagesPath}radio_image.png";
   static const  sebhaTabLogo = "${baseImagesPath}sebha_image.png";
-
+  static const  HeadSebhaTabLogo = "${baseImagesPath}headofsebha.png";
 }
