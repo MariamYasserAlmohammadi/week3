@@ -10,4 +10,5 @@ abstract class AppAssets{
   static const  radioTabLogo = "${baseImagesPath}radio_image.png";
   static const  sebhaTabLogo = "${baseImagesPath}sebha_image.png";
   static const  HeadSebhaTabLogo = "${baseImagesPath}headofsebha.png";
+  static const  backgroundDark = "${baseImagesPath}background_dark.png";
 }

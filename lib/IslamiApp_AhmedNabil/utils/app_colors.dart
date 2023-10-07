@@ -7,5 +7,6 @@ abstract class AppColors{
   static const Color secondary = Color.fromARGB(255, 183, 147, 95);
   static const Color white =Colors.white;
   static const Color transparent =Colors.transparent;
-
+  static const Color primaryDark =Color(0xff141A2E);
+  static const Color accentDark =Color(0xffFACC1D);
 }

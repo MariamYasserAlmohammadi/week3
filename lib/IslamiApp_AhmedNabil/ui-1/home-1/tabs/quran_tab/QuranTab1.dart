@@ -27,7 +27,7 @@ class QuranTab1 extends StatelessWidget {
                  thickness: 3,
                  color: AppColors.primary,
                ),
-          Text("Sura name",style:AppTheme.quranTabTitleTextStyle ,
+          Text("Sura name",style:Theme.of(context).textTheme.displayMedium ,
             textAlign: TextAlign.center,),
           Divider(
             thickness: 3,
