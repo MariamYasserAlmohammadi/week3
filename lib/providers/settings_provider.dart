@@ -7,6 +7,8 @@ class SettingsProvider extends ChangeNotifier{
 
   bool isDarkMode ()=> currentMode==ThemeMode.dark;
 
+  bool IsAr ()=> currentLocale == "ar";
+
   void setCurrentLocale(String newLocale) async{
     SharedPreferences prefs = await SharedPreferences.getInstance();
     currentLocale = newLocale;

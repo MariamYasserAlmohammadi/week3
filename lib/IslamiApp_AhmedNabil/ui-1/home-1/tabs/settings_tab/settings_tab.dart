@@ -10,14 +10,15 @@ class SettingsTab1 extends StatefulWidget {
 }
 
 class _SettingsTab1State extends State<SettingsTab1> {
-  bool arSwitch = false;
-
-  bool darkModeSwitch = false;
+  late bool arSwitch ;
+  late bool darkModeSwitch;
   late SettingsProvider provider;
 
   @override
   Widget build(BuildContext context) {
     provider = Provider.of(context);
+    darkModeSwitch = provider.isDarkMode();
+    arSwitch =provider.IsAr();
     return Padding(
       padding: const EdgeInsets.all(16.0),
       child: Column(
